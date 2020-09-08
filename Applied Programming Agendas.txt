@@ -1,0 +1,25 @@
+Applied Programming Agendas
+
+
+Syllabus
+
+Create Git Account
+	- Make Sure to use personal email
+
+Download Git and Git Bash
+Download Anaconda
+Download Brackets
+
+Intro to file systems
+	- cd
+	- ls
+	- ..
+	- .
+	- mkdir
+	- touch
+
+Git commands
+	-	git clone
+	-   git commit
+	- 	git push
+	-   git pull
