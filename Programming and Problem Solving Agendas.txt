@@ -1,1 +1,9 @@
 Programming and Problem Solving Agendas
+
+9/10/2020
+
+- Variables
+- Step by Step Procress
+- Variable Updates
+
+- For Loops
