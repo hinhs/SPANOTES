@@ -10,16 +10,32 @@ Download Git and Git Bash
 Download Anaconda
 Download Brackets
 
+
+We will be using Anaconda Powershell Prompt
+
 Intro to file systems
-	- cd
-	- ls
-	- ..
+	- cd -> Change directory, It's like your mouse/pointer
+	- ls -> show list of items in your direcoty
+	- .. -> This means prev directory -> cd .. means change directory into previous directory
 	- .
-	- mkdir
-	- touch
+	- mkdir - > Make Directory
+	- touch -> Ignore this, Windows Sucks
 
 Git commands
 	-	git clone
 	-   git commit
 	- 	git push
 	-   git pull
+
+9/10/2020
+
+We will start @ 12:13
+
+After Class
+	- Online for questions til 1:30
+
+Fundamental HTML
+
+- Listen to boring presentation
+- Implment first part of page
+- test git pushing
