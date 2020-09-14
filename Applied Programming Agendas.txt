@@ -39,3 +39,20 @@ Fundamental HTML
 - Listen to boring presentation
 - Implment first part of page
 - test git pushing
+
+
+Git Some!
+
+- Git intro
+- Git practice
+
+
+Activity
+
+- clone repo
+- create a file called your_name.txt in the directory git_practice
+- git add file
+- git commit file -m "message"
+- git push
+
+- git pull
