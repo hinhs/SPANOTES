@@ -1,0 +1,17 @@
+body {
+    background-color:  #6CBB47;
+    
+}
+
+h1 {
+     font-family: sans-serif;
+      border-bottom: 3px solid #333333;
+}
+
+h1.food {
+    color: aqua;
+}
+
+.animal {
+    color: red;
+}
