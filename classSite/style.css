@@ -12,9 +12,39 @@ h1 {
     background: #181818;
     font-family: sans-serif;
 }
+h3{
+    font-family: sans-serif;
+    font-size: 150%;
+    border: 10px solid #181818;
+    background: #181818;
+    margin-bottom: 0px;
+}
 body {
     color: black;
     font-size: 200%;
     background-color: #505050;
     text-align: center;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  align-content: center;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: center;
+  align-items: center;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+li:hover {
+  background-color: #111;
 }
