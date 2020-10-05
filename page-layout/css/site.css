@@ -1,0 +1,46 @@
+/* put your style below! */
+
+
+
+
+
+
+
+/* ================================= */
+/* below are styles I've provided for the navigation bar and the footer.  No need to change these  */
+nav.sitenav ul {
+    list-style: none;
+}
+
+nav.sitenav li {
+    display: inline-block;
+    width: 8em;
+    text-align: center;
+}
+
+nav.sitenav a {
+    display: block;
+    font-weight: bold;
+}
+
+nav.sitenav a:link,
+nav.sitenav a:visited,
+nav.sitenav a:hover,
+nav.sitenav a:active {
+    color: green;
+    text-decoration: none;
+    border-bottom: thin solid transparent;
+}
+
+nav.sitenav a:hover {
+    border-bottom: thin solid green;
+}
+
+nav.sitenav li.youarehere a {
+    background-color: #cdfecd;
+    border-bottom: thin solid green;
+}
+
+footer {
+    border-top: thin solid green;
+}
