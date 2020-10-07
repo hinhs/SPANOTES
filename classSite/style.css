@@ -1,7 +1,132 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+body{
+    background-color:antiquewhite
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ul.announcments{
+    list-style:none;
+    background-color:aliceblue;
+    
+}
+
+ul.announcment{
+    list-style:none;
+    background-color:bisque;
+    margin-left:100;
+    margin-right:100;
+    margin-top:50;
+    margin-bottom:50;
+}
+
+li.top{
+    font-size:40px;
+}
+
+
+img.headerImage{
+    height:70;
+    float:left;
+    margin-left:20;
+    margin-bottom:;
+    display:inline;
+}
+li.home {
+    display:inline;
+    float:left;
+    margin-left:20;
+    margin-bottom:20; 
+}
+li.aboutUs{
+    display:inline;
+    float:left;
+    margin-left:20;
+    margin-bottom:10;
+}
+li.announcements{
+    display:inline;
+    float:left;
+    margin-left:20;
+    margin-bottom:10;
+}
 img{
     width: 10;
     height: 10;
     margin: 20px;
+
 }
 h1 {
     text-align: center;
@@ -47,6 +172,17 @@ li {
 }
 
 
-li:hover {
+img.headerImage:hover {
+  background-color: #111;
+<<<<<<< HEAD
+}
+li.home:hover {
   background-color: #111;
 }
+li.aboutUs:hover {
+  background-color: #111;
+}
+li.announcements:hover {
+  background-color: #111;
+}
+
