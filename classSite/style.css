@@ -1,6 +1,173 @@
+<<<<<<< HEAD
 body{
     background-color:antiquewhite
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -220,3 +387,55 @@ li.top{
     font-size:40px;
 }
 
+=======
+img{
+    width: 10;
+    height: 10;
+}
+h1 {
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    margin: auto;
+    border: 10px solid #181818;
+    padding-top: 0px;
+    background: #181818;
+    font-family: sans-serif;
+}
+h3{
+    font-family: sans-serif;
+    font-size: 150%;
+    border: 10px solid #181818;
+    background: #181818;
+    margin-bottom: 0px;
+}
+body {
+    color: black;
+    font-size: 200%;
+    background-color: #505050;
+    text-align: center;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  align-content: center;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: center;
+  align-items: center;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+li:hover {
+  background-color: #111;
+}
+>>>>>>> 92536653e329c94abbb8c476d5c63bd88b2ffe5b
