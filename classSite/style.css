@@ -1,79 +1,7 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 body{
     background-color:antiquewhite
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -98,7 +26,8 @@ li.top{
 
 
 img.headerImage{
-    height:70;
+    height:60px;
+    width:80px;
     float:left;
     margin-left:20;
     margin-bottom:;
@@ -174,7 +103,7 @@ li {
 
 img.headerImage:hover {
   background-color: #111;
-<<<<<<< HEAD
+
 }
 li.home:hover {
   background-color: #111;

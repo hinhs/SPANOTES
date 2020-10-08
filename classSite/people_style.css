@@ -1,6 +1,36 @@
+img.headerImage{
+    height:60px;
+    width:80px;
+    float:left;
+    margin-left:20px;
+    display:inline;
+}
+
+li.home {
+    display:inline;
+    float:left;
+    margin-top:20px;
+    margin-left:20px;
+    margin-bottom:20px; 
+}
+
+li.aboutUs{
+    display:inline;
+    float:left;
+    margin-top:20px;
+    margin-left:20px;
+    margin-bottom:20px; 
+}
+
+li.announcements{
+    display:inline;
+    float:left;
+    margin-left:20px;
+    margin-bottom:10px;
+}
 img{
-    width: 10;
-    height: 10;
+    width: 10px;
+    height: 10px;
     margin: 20px;
 }
 h1 {
