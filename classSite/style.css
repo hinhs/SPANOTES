@@ -24,6 +24,8 @@ img.headerImage{
     margin-left:20;
     margin-bottom:;
     display:inline;
+    border-radius: 20px;
+    max-width: 15%;
 }
 li.home {
     display:inline;
@@ -91,11 +93,16 @@ li {
   padding: 14px 16px;
   text-decoration: none;
 }
-
-
+a:link {
+    color: white;
+    text-decoration: none;
+}
+a:visited {
+    color: white;
+    text-decoration: none;
+}
 img.headerImage:hover {
   background-color: #111;
-<<<<<<< HEAD
 }
 li.home:hover {
   background-color: #111;
