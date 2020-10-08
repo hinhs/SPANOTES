@@ -1,7 +1,6 @@
 img{
-    width: 10;
-    height: 10;
     margin: 20px;
+    width: 150px;
 }
 h1 {
     text-align: center;
@@ -43,7 +42,6 @@ ul {
 }
 
 li {
-  float: center;
   align-items: center;
   display: block;
   color: white;
