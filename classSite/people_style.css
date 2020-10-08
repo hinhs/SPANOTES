@@ -1,0 +1,100 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+img.headerImage{
+    height:60px;
+    width:80px;
+    float:left;
+    margin-left:20px;
+    display:inline;
+}
+
+li.home {
+    display:inline;
+    float:left;
+    margin-top:20px;
+    margin-left:20px;
+    margin-bottom:20px; 
+}
+
+li.aboutUs{
+    display:inline;
+    float:left;
+    margin-top:20px;
+    margin-left:20px;
+    margin-bottom:20px; 
+}
+
+li.announcements{
+    display:inline;
+    float:left;
+    margin-left:20px;
+    margin-bottom:10px;
+}
+img{
+<<<<<<< HEAD:classSite/people_style.css
+    width: 10px;
+    height: 10px;
+=======
+>>>>>>> 49dd38abd87878f1d76456c2d4236ee6bdf7151e:classSite/people/people_style.css
+    margin: 20px;
+    width: 150px;
+}
+h1 {
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    margin: auto;
+    border: 10px solid #181818;
+    padding-top: 0px;
+    background: #181818;
+    font-family: sans-serif;
+}
+
+p {
+    color:white;
+    padding: 0px 
+}
+
+h3{
+    font-family: sans-serif;
+    font-size: 150%;
+    border: 10px solid #181818;
+    background: #181818;
+    margin-bottom: 0px;
+    color: white;
+}
+body {
+    color: black;
+    font-size: 200%;
+    background-color: #505050;
+    text-align: center;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  align-content: center;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  align-items: center;
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
