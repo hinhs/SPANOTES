@@ -1,3 +1,17 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 img.headerImage{
     height:60px;
     width:80px;
@@ -29,9 +43,13 @@ li.announcements{
     margin-bottom:10px;
 }
 img{
+<<<<<<< HEAD:classSite/people_style.css
     width: 10px;
     height: 10px;
+=======
+>>>>>>> 49dd38abd87878f1d76456c2d4236ee6bdf7151e:classSite/people/people_style.css
     margin: 20px;
+    width: 150px;
 }
 h1 {
     text-align: center;
@@ -73,7 +91,6 @@ ul {
 }
 
 li {
-  float: center;
   align-items: center;
   display: block;
   color: white;
