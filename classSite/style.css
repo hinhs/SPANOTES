@@ -7,17 +7,17 @@ body{
 
 ul.announcments{
     list-style:none;
-    background-color:aliceblue;
     
 }
 
 ul.announcment{
     list-style:none;
-    background-color:bisque;
-    margin-left:100;
-    margin-right:100;
-    margin-top:50;
-    margin-bottom:50;
+    background-color:lightgray;
+    margin-left:150px;
+    margin-right:150px;
+    margin-top:50px;
+    margin-bottom:50px;
+    border: 10px solid dimgray;
 }
 
 li.top{
