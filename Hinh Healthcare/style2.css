@@ -1,0 +1,76 @@
+body {
+    background-color: #706e6e;
+}
+
+ul.header { 
+    background-image: url("PageBanner.png");
+    background-size: 35%;
+    list-style: none;
+    margin-bottom: ;
+    
+
+}
+
+li.image {
+}
+
+li.home {
+         color: #000000; 
+         font-size: 36;
+         margin-left: 23%;
+}
+
+li.form {
+    margin-left: 23%;
+}
+
+p {
+    background-color: dodgerblue; 
+    border-style: solid;
+    border-color: black;
+    font-size: ; 
+    
+}
+
+ul.bottom_bar {
+    list-style: none;
+}
+
+ul.socials {
+    background-color: dodgerblue; 
+    border-style: solid;
+    border-color: black;
+    font-size: ; 
+    list-style: none;
+    float: left;
+    margin-left: 5%;
+    
+}
+
+ul.contact {
+    list-style: none;
+    background-color: dodgerblue; 
+    border-style: solid;
+    border-color: black;
+    font-size: ; 
+    float: left;
+    margin-left: 5%;
+}
+
+ul.links {
+    list-style: none;
+    background-color: dodgerblue; 
+    border-style: solid;
+    border-color: black;
+    font-size: ; 
+    float: left;
+    margin-left: 5%;
+}
+
+li {
+    margin-left: 5%;
+}
+
+h3 {
+    margin-right: 5%;
+}
