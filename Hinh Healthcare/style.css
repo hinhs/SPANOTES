@@ -3,7 +3,7 @@ body {
 }
 
 ul.header { 
-    background-image: url(PageBanner.png);
+    background-image: url("PageBanner.png");
     background-size: 2%;
     list-style: none;
     margin-bottom: 35%;
