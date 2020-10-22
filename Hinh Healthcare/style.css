@@ -3,11 +3,10 @@ body {
 }
 
 ul.header { 
-    background-image: url("PageBanner.png");
-    background-size: 35%;
+    background-image: url(PageBanner.png);
+    background-size: 2%;
     list-style: none;
-    border-style: solid;
-    border-color: black;
+    margin-bottom: 35%;
     
 
 }
@@ -25,5 +24,50 @@ li.form {
 p {
     background-color: dodgerblue; 
     border-style: solid;
-    border-color: black; 
+    border-color: black;
+    font-size: ; 
+    
+}
+
+ul.bottom_bar {
+    list-style: none;
+}
+
+ul.socials {
+    background-color: dodgerblue; 
+    border-style: solid;
+    border-color: black;
+    font-size: ; 
+    list-style: none;
+    float: left;
+    margin-left: 5%;
+    
+}
+
+ul.contact {
+    list-style: none;
+    background-color: dodgerblue; 
+    border-style: solid;
+    border-color: black;
+    font-size: ; 
+    float: left;
+    margin-left: 5%;
+}
+
+ul.links {
+    list-style: none;
+    background-color: dodgerblue; 
+    border-style: solid;
+    border-color: black;
+    font-size: ; 
+    float: left;
+    margin-left: 5%;
+}
+
+li {
+    margin-left: 5%;
+}
+
+h3 {
+    margin-right: 5%;
 }
