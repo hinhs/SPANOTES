@@ -1,5 +1,5 @@
 body {
-    background-color: #706e6e;
+    background-color: #302f2f;
 }
 
 ul.header { 
@@ -11,7 +11,12 @@ ul.header {
 
 }
 
-li.image {
+
+h1 {
+    border-style: solid;
+    background-color: dodgerblue;
+    margin-right: 87%;
+    font-size: 78;
 }
 
 li.home {
@@ -28,12 +33,14 @@ p {
     background-color: dodgerblue; 
     border-style: solid;
     border-color: black;
-    font-size: ; 
+    font-size: 46; 
+    margin-right: 25%;
     
 }
 
 ul.bottom_bar {
     list-style: none;
+    margin-right: 30%;
 }
 
 ul.socials {
@@ -43,7 +50,6 @@ ul.socials {
     font-size: ; 
     list-style: none;
     float: left;
-    margin-left: 5%;
     
 }
 
@@ -68,9 +74,9 @@ ul.links {
 }
 
 li {
-    margin-left: 5%;
+    margin-left: 10%;
 }
 
 h3 {
-    margin-right: 5%;
+    margin-right: 10%;
 }
