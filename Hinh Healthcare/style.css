@@ -4,22 +4,31 @@ body {
 
 ul.header { 
     background-image: url("PageBanner.png");
-    background-size: 35%;
+    background-size: 100%;
     list-style: none;
     border-style: solid;
     border-color: black;
-    
+    width:1250px;
+    height:125px;
+
 
 }
 
 li.home {
          color: #000000; 
-         font-size: 36;
+         font-size: 30px;
          margin-left: 23%;
+        margin-top:47.5px;
+        float:right;
 }
 
 li.form {
-    margin-left: 23%;
+    color: #000000; 
+    font-size: 30px;
+    margin-right:20%;
+    margin-left:1%;
+    margin-top:47.5px;
+    float:right;
 }
 
 p {
