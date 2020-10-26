@@ -83,12 +83,18 @@ h3 {
 
 input {
     background-color: dodgerblue; 
-    border-style: solid;
-    border-color: black;
+/*    border-style: solid;*/
+/*    border-color: black;*/
 }
 
 lable {
     background-color: dodgerblue; 
     border-style: solid;
     border-color: black;
+}
+
+ {
+   background-color: dodgerblue; 
+   border-style: solid;
+   border-color: black;
 }
