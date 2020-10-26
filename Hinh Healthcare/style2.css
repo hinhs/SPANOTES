@@ -80,3 +80,15 @@ li {
 h3 {
     margin-right: 10%;
 }
+
+input {
+    background-color: dodgerblue; 
+    border-style: solid;
+    border-color: black;
+}
+
+lable {
+    background-color: dodgerblue; 
+    border-style: solid;
+    border-color: black;
+}
