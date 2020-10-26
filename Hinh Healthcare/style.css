@@ -4,7 +4,6 @@ body {
 
 ul.header { 
     background-image: url("PageBanner.png");
-<<<<<<< HEAD
     background-size: 100%;
     list-style: none;
     border-style: solid;
@@ -12,13 +11,11 @@ ul.header {
     width:1250px;
     height:125px;
 
-=======
+
     background-size: 2%;
     list-style: none;
     margin-bottom: 35%;
     
->>>>>>> 70e6173d47c57fffea6157e92b57b8a82fe07db2
-
 }
 
 li.home {
