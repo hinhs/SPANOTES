@@ -33,46 +33,46 @@
             Form
         </h1>
         
-        <form>
+        <form id="health_form" action="Confirmation2.html">
             <label for="fname">First name:</label><br>
             <input type="text" id="fname" name="fname"><br>
             <label for="lname">Last name:</label><br>
             <input type="text" id="lname" name="lname"><br>
             
             <p>Do you live with someone who has recived a positive Covid-19 test in the last 14 days?</p>
-            <input type = "radio" id = "yes" name = "live_with" value = "yes">
+            <input type = "radio" id = "yes" name = "live_with" value = 1>
             <lable for="yes">Yes, I have</lable><br>
-            <input type = "radio" id = "no" name = "live_with" value = "no">
+            <input type = "radio" id = "no" name = "live_with" value = 0>
             <lable for="no">No, I haven't</lable><br>
             
             <p>Is anyone in your house waiting for a Covid-19 test?</p>
-            <input type = "radio" id = "yes" name = "waiting" value = "yes">
+            <input type = "radio" id = "yes" name = "waiting" value = 1>
             <lable for="yes">Yes</lable><br>
-            <input type = "radio" id = "no" name = "waiting" value = "no">
+            <input type = "radio" id = "no" name = "waiting" value = 0>
             <lable for="no">No</lable><br>
             
             <p>Have you had close contact with somene who is known to have Covid-19in the last 14 days?</p>
-            <input type = "radio" id = "yes" name = "contact" value = "yes">
+            <input type = "radio" id = "yes" name = "contact" value = 1>
             <lable for="yes">Yes</lable><br>
-            <input type = "radio" id = "no" name = "contact" value = "no">
+            <input type = "radio" id = "no" name = "contact" value = 0>
             <lable for="no">No</lable><br>
             
             <p>Have you been on an airplane in the last 14 days?</p>
-            <input type = "radio" id = "yes" name = "airplane" value = "yes">
+            <input type = "radio" id = "yes" name = "airplane" value = 1>
             <lable for="yes">Yes</lable><br>
-            <input type = "radio" id = "no" name = "airplane" value = "no">
+            <input type = "radio" id = "no" name = "airplane" value = 0>
             <lable for="no">No</lable><br>
             
             <p>What if any of these symptoms are you displaying?</p>
-            <input type = "checkbox" name ="symptoms" value="fever">Fever of 100.4 or higher, feeling feverish, or chills<br>
-            <input type = "checkbox" name ="symptoms" value="cough">New Cough<br>
-            <input type = "checkbox" name ="symptoms" value="throat">New Soar Throat<br>
-            <input type = "checkbox" name ="symptoms" value="breath">Shortness of Breath<br>
-            <input type = "checkbox" name ="symptoms" value="muscle">New Mucle Aches(not related to physical activity)<br>
-            <input type = "checkbox" name ="symptoms" value="taste">Loss of Taste or Smell<br>
-            <input type = "checkbox" name ="symptoms" value="nausea">Diahrea, Vommiting, Nausea<br>
-            <input type = "checkbox" name ="symptoms" value="congestion">Congestion/runny nose<br>
-            <input type = "checkbox" name ="symptoms" value="none">NONE OF THE ABOVE<br>
+            <input type = "checkbox" name ="symptoms" value=1>Fever of 100.4 or higher, feeling feverish, or chills<br>
+            <input type = "checkbox" name ="symptoms" value=1>New Cough<br>
+            <input type = "checkbox" name ="symptoms" value=1>New Soar Throat<br>
+            <input type = "checkbox" name ="symptoms" value=1>Shortness of Breath<br>
+            <input type = "checkbox" name ="symptoms" value=1>New Mucle Aches(not related to physical activity)<br>
+            <input type = "checkbox" name ="symptoms" value=1>Loss of Taste or Smell<br>
+            <input type = "checkbox" name ="symptoms" value=1>Diahrea, Vommiting, Nausea<br>
+            <input type = "checkbox" name ="symptoms" value=1>Congestion/runny nose<br>
+            <input type = "checkbox" name ="symptoms" value=0>NONE OF THE ABOVE<br>
             
             <p> </p>
             <label for="temp">What is Your Tempurature?</label><br>
@@ -80,6 +80,8 @@
             
             <p> </p>
             
-            <input type = "submit" value = "Submit Now">
+            <button id="done" type="submit">Submit</button>
+
+
         </form>
     </body>
