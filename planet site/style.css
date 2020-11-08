@@ -1,6 +1,30 @@
+.body {
+    background-color: #2E4053;
+    text-decoration-color: white;
+}
+
+.title {
+    border-style: solid;
+    border-color: black;
+    background-color: grey;
+    margin-right: 89%;
+    color: skyblue;
+}
+
+.container {
+    border-style: solid;
+    border-color: black;
+    background-color: grey;
+    color: skyblue;
+}
+
 .container {
   display: inline-block;
   cursor: pointer;
+}
+
+.button {
+    color: skyblue;
 }
 
 .bar1, .bar2, .bar3 {
