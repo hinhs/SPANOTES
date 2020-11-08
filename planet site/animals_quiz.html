@@ -36,4 +36,50 @@
         <input type="text" placeholder="Search..">
             
 </div>
+        <form id="regForm" action="">
+
+        <h1>Animals Quiz</h1>
+
+        <!-- One "tab" for each step in the form: -->
+        <div class="tab">Animal 1
+            <img src = "Cat.jpg">
+            <p><input placeholder="Which animal is this" oninput="this.className = ''"></p>
+        </div>
+
+        <div class="tab">Animal 2
+            <img src = "Dog.jpg">
+            <p><input placeholder="Which animal is this" oninput="this.className = ''"></p>
+        </div>
+
+        <div class="tab">Animal 3
+            <img src = "Tiger.jpg">
+            <p><input placeholder="Which animal is this" oninput="this.className = ''"></p>
+        </div>
+
+        <div class="tab">Animal 4
+            <img src = "Lion.jpg">
+            <p><input placeholder="Which animal is this" oninput="this.className = ''"></p>
+        </div>
+            
+        <div class="tab">Animal 5
+            <img src = "Panther.jpg">
+            <p><input placeholder="Which animal is this" oninput="this.className = ''"></p>
+        </div>
+        
+        <div style="overflow:auto;">
+            <div style="float:right;">
+                <button type="button" id="prevBtn" onclick="nextPrev(-1)">Previous</button>
+                <button type="button" id="nextBtn" onclick="nextPrev(1)">Next</button>
+            </div>
+        </div>
+
+        <!-- Circles which indicates the steps of the form: -->
+        <div style="text-align:center;margin-top:40px;">
+            <span class="step"></span>
+            <span class="step"></span>
+            <span class="step"></span>
+            <span class="step"></span>
+        </div>
+
+        </form>
     </body>

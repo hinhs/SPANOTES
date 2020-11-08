@@ -36,4 +36,73 @@
         <input type="text" placeholder="Search..">
             
 </div>
+        <form id="regForm" action="">
+
+        <h1>Planets Quiz</h1>
+
+        <!-- One "tab" for each step in the form: -->
+        <div class="tab">Planet 1
+            <img src = "venus.png">
+            <p><input placeholder="Which planet is this" oninput="this.className = ''"></p>
+        </div>
+
+        <div class="tab">Planet 2
+            <img src = "mercury.jpg">
+            <p><input placeholder="Which planet is this" oninput="this.className = ''"></p>
+        </div>
+
+        <div class="tab">BPlanet 3
+            <img src = "Earth.jpg">
+            <p><input placeholder="Which planet is this" oninput="this.className = ''"></p>
+        </div>
+
+        <div class="tab">Planet 4
+            <img src = "mars.jpg">
+            <p><input placeholder="Which planet is this" oninput="this.className = ''"></p>
+        </div>
+            
+        <div class="tab">Planet 5
+            <img src = "jupiter.jpg">
+            <p><input placeholder="Which planet is this" oninput="this.className = ''"></p>
+        </div>
+            
+        <div class="tab">Planet 6
+            <img src = "saturn.jpg">
+            <p><input placeholder="Which planet is this" oninput="this.className = ''"></p>
+        </div>
+            
+        <div class="tab">Planet 7
+            <img src = "uranus.jpg">
+            <p><input placeholder="Which planet is this" oninput="this.className = ''"></p>
+        </div>
+            
+        <div class="tab">Planet 8
+            <img src = "Neptune.jpg">
+            <p><input placeholder="Which planet is this" oninput="this.className = ''"></p>
+        </div>
+            
+        <div class="tab">Planet 9
+            <img src = "Pluto.jpg">
+            <p><input placeholder="Which planet is this" oninput="this.className = ''"></p>
+        </div>
+
+        <div style="overflow:auto;">
+            <div style="float:right;">
+                <button type="button" id="prevBtn" onclick="nextPrev(-1)">Previous</button>
+                <button type="button" id="nextBtn" onclick="nextPrev(1)">Next</button>
+            </div>
+        </div>
+
+        <!-- Circles which indicates the steps of the form: -->
+        <div style="text-align:center;margin-top:40px;">
+            <span class="step"></span>
+            <span class="step"></span>
+            <span class="step"></span>
+            <span class="step"></span>
+        </div>
+
+        </form>
+        
+        
+        
     </body>
