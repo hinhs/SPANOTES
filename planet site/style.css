@@ -17,7 +17,20 @@
     color: skyblue;
 }
 
+.container3 {
+    border-style: solid;
+    border-color: black;
+    background-color: grey;
+    color: skyblue;
+    margin: 5%;
+}
+
 .container {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.container3 {
   display: inline-block;
   cursor: pointer;
 }
@@ -184,6 +197,14 @@
   font-size: 60;
 }
 
+.container3 {
+  position: relative;
+  text-align: center;
+  color: white;
+  font-size: 60;
+}
+
+
 .centered {
   position: absolute;
   top: 50%;
@@ -200,6 +221,7 @@
   display: block;
   width: 100%;
   height: auto;
+  border-style: solid;
 }
 
 .overlay {
@@ -212,7 +234,7 @@
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #008CBA;
+  background-color: black;
 }
 
 .container2:hover .overlay {
@@ -229,4 +251,12 @@
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+}
+
+.prev {
+    border-style: dashed;
+}
+
+.next {
+    border-style: dashed;
 }
