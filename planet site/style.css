@@ -1,6 +1,5 @@
 .body {
-    background-color: #2E4053;
-    text-decoration-color: white;
+    background-color: grey;
 }
 
 .title {
@@ -8,7 +7,7 @@
     border-color: black;
     background-color: grey;
     margin-right: 89%;
-    color: skyblue;
+    color: white;
 }
 
 .container {
@@ -176,4 +175,17 @@
 @keyframes animatezoom {
   from {transform: scale(0)}
   to {transform: scale(1)}
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
