@@ -2,6 +2,8 @@
     background-color: grey;
 }
 
+
+
 .title {
     border-style: solid;
     border-color: black;
@@ -229,4 +231,12 @@
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+}
+
+.quiz{
+    background-color:  aqua;
+}
+
+.question{
+    font-size-adjust:auto;
 }
