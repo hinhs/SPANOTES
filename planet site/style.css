@@ -19,7 +19,20 @@
     color: skyblue;
 }
 
+.container3 {
+    border-style: solid;
+    border-color: black;
+    background-color: grey;
+    color: skyblue;
+    margin: 5%;
+}
+
 .container {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.container3 {
   display: inline-block;
   cursor: pointer;
 }
@@ -186,6 +199,14 @@
   font-size: 60;
 }
 
+.container3 {
+  position: relative;
+  text-align: center;
+  color: white;
+  font-size: 60;
+}
+
+
 .centered {
   position: absolute;
   top: 50%;
@@ -202,6 +223,7 @@
   display: block;
   width: 100%;
   height: auto;
+  border-style: solid;
 }
 
 .overlay {
@@ -214,7 +236,7 @@
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #008CBA;
+  background-color: black;
 }
 
 .container2:hover .overlay {
@@ -233,6 +255,7 @@
   text-align: center;
 }
 
+<<<<<<< HEAD
 .quiz{
     background-color:  aqua;
 }
@@ -240,3 +263,12 @@
 .question{
     font-size-adjust:auto;
 }
+=======
+.prev {
+    border-style: dashed;
+}
+
+.next {
+    border-style: dashed;
+}
+>>>>>>> 24ed05cc9863479858e21e97e0e1803905d92fe1
