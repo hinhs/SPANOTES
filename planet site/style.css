@@ -25,6 +25,7 @@
     background-color: grey;
     color: skyblue;
     margin: 5%;
+    
 }
 
 .container {
@@ -35,6 +36,7 @@
 .container3 {
   display: inline-block;
   cursor: pointer;
+    
 }
 
 .button {
@@ -272,13 +274,6 @@
     font-size-adjust:auto;
 }
 
-.prev {
-    border-style: dashed;
-}
-
-.next {
-    border-style: dashed;
-}
 
 .tab{
     margin-left: 150px;
