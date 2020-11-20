@@ -1,20 +1,41 @@
-body{
+.body{
     background-color: gray;
 }
 
-button{
+.button{
      
 }
 
-p{
+.p{
     background-color: lightblue;
     border-style: solid;
     margin-right: 50%;
     
 }
 
-h1{
+.h1{
     background-color: lightblue;
     border-style: solid;
     margin-right: 65%;
+}
+
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  text-align: center;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+    
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
 }
