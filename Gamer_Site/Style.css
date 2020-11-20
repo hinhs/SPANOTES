@@ -1,5 +1,5 @@
 body{
-    background-image: url("dr%20phill.jpg"); 
+    background-color: gray;
 }
 
 button{
@@ -7,7 +7,14 @@ button{
 }
 
 p{
-    background: white;
-    border: 5px;
+    background-color: lightblue;
+    border-style: solid;
+    margin-right: 50%;
     
+}
+
+h1{
+    background-color: lightblue;
+    border-style: solid;
+    margin-right: 65%;
 }
